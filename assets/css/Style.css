@@ -1,0 +1,142 @@
+body { 
+    background:radial-gradient( #3cf67d, #5af5db);
+padding-bottom: 2%;
+}
+nav {
+    background-color: white;
+    padding: 30px 0;
+    width: 100%;
+}
+header{
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.h1{
+    margin-left: 2%;
+}
+main{
+    background-color: white;
+}
+section .testf{
+    background-color: #19aeff6b;
+    
+}
+section .teste{
+    background-color: #af03533f;
+    
+}
+section .testc{
+    background-color: #b2ffc190;
+    
+}
+.img{
+    margin-left: 100px;
+}
+.imgr{
+    margin-right: 100px;
+}
+/*********anim********/
+
+.pulse {
+    animation: pulse 5s infinite ease-in-out alternate;
+   margin-left: 100px;
+}
+
+.bounce {
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s infinite ease-in-out alternate; /* don't forget to set a duration! */
+  }
+
+.img1 {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+  }
+@keyframes pulse {
+    from { transform: scale(0.8); }
+    to { transform: scale(1.2); }
+  }
+/*********presentation*******/
+.text{
+    margin-left: 110%;
+}
+.text1{
+    margin-left: 100%;
+}
+
+.offcanvas{
+    height: 50%!important;
+
+}
+#offcanvasTopLabel{
+    font-size: 50px;
+    
+    
+} 
+
+
+#presentation{
+    font-size: 30px;  
+}
+.bg-image3{
+    background-image: url('../images/presence\ 2.png');
+    background-repeat: no-repeat;   
+}
+
+.w-20{
+    background-color: rgb(246, 208, 137);
+    
+}
+
+
+
+/************page-divers**********/
+
+.bg-image{
+    background-image: url('../images/page-divers.png');
+    background-repeat: no-repeat;
+    
+   
+}
+
+.couleur{
+    background: linear-gradient(to right top, #94e6ee8e,  #88d8ee90, #84c9eb80, #93c9ed7a, #a1caee76, #aecbee96, #c7d6f27b, #dde2f588, #eeeff976, #fdfdfd80);
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.couleur2{
+    background: linear-gradient(to right top, #6aec7ba5, #7dee84a4, #8def8f9d, #9bf199, #a9f2a3, #9ff6bd, #f0f9ffc5, #fdfdfd);
+    margin-left: 80%;
+}
+.couleur3{
+    background: linear-gradient(to right top, #f2f22067, #edf03777, #e6eb54b7, #e4e860, #fffff0, #fdfdf3c0);
+    margin-left:50%;
+   
+}
+@media screen and (max-width:768px){
+    .couleur2{
+    margin-left: 40%;
+} 
+.bg-image{
+    background: none;
+   } 
+.bg-image3{
+    background: none; 
+   }
+   .text1{
+    margin-left: 0%;
+}
+   
+}
+
+
+
+.formulaire{
+    margin-right: 30%;
+}
+
+
